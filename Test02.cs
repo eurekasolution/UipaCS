@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Test02
     {
-        static void Main(string[] args)
+        static void Main02(string[] args)
         {
             int num1 = 10;
             int num2 = 3;

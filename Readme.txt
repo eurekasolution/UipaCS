@@ -1,5 +1,36 @@
 설명을 위한 파일입니다.
 
+7. 용어설명
+	overloading : 중복정의
+	overriding : 재정의
+
+6. 참고 사항 : 자료구조.
+
+	Stack : FILO, LIFO : 스프링 동전통
+		push, pop
+	Queue : FIFO
+		enqueue, dequeue()
+		문제점 1 : Round-Robin으로 해결
+		문제점 2 : 
+
+			4 3 2 1 0
+			E D C 
+			이상황에서 F를 넣으려면 CDE 옮겨야만 가능
+			해결책 --> 원형큐(Circular Queue)
+	Array : 고정길이 벡터
+	Tree : 루프가 없는 그래프
+	Set : 중복을 허용하지 않는 자료구조
+		A = { 1, 1, 1, 2, 2, 3 } = {1, 2, 3}
+
+		a                                b
+		test  -----암호화-----> adsfkadskfasd93329dh2df
+
+		f(a) = b
+		양변 역함수
+		a = f-(b)
+
+	Hash : 역함수가 존재하지 않는 함수
+
 5. 클래스 : 구조체(struct)인데 함수를 포함하는 구조체
 	객체(Object)를 클래스로 구현
 		- 상태정보(변수) + 동작정보(Method)
