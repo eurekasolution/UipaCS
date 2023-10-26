@@ -1,5 +1,77 @@
 설명을 위한 파일입니다.
 
+19. Thread vs. Process
+
+	Thread : 경량 프로세스 : light-weight process
+18.예외처리 : Exception Control
+	비정상적인 오류를 제거
+
+
+17. enhanced for
+
+	int[] lotto = new int[6];
+
+	for(int value : lotto)
+	{
+		System.out.println(value);
+	}
+
+16. 그룹 데이터 처리
+	1. Array , Generic
+	데이터 처리 : DB, CSV, TSV, JSON(JavaScript Object Notation)
+
+	{
+		"name" : "홍길동",
+		"age" : 12,
+		"company" : "UIPA"
+	}
+
+	{
+		"name" : "홍길동",
+		"age" : 12,
+		"company" : {
+			"name" : "울산정보산업진흥원",
+			"http" : "http://uipa.or.kr",
+			"tel" : "053-123-4567"
+		}
+	}
+
+	{
+		"person" : {
+			"name" : "홍길동",
+			"age" : 12
+		}, 
+		"company" : {
+			"name" : "국민은행",
+			"url" : "https://kbstar.com"
+		}
+	}
+
+	{
+		"employee": [ 
+			{ "name" : "홍길동", "age" : 12 },
+			{
+				"name" : "이순신",
+				"age" : 34
+			},
+			{
+				"name" : "광개토",
+				"age" : 43
+			}
+		],
+		"employer": [
+			{ "company" : "국민은행" },
+			{ "company" : "울산정보산업진흥원"}
+		]
+	}
+
+
+15. 인터페이스 : Interface
+	추상의 정도가 매우 심해서 모든 메소드가 abstract로 구성된 클래스
+14. 추상 클래스 : Abstract Class
+	
+
+
 13. 재정의 : overriding
 	말 안장에 올라타기
 	올라타면 밑에 깔판이 안보임

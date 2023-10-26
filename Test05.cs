@@ -11,6 +11,20 @@ namespace ConsoleApp1
     {
         public int data;
         public string Name { get; set; }
+
+        public Robot()
+        {
+            Name = "홍길동";
+            Console.WriteLine("A");
+        }
+
+        public Robot(string name)
+        {
+            Name = name;
+            Console.WriteLine("B");
+        }
+
+
         public void Move()
         {
             Console.WriteLine($"{Name} moves");
@@ -25,6 +39,17 @@ namespace ConsoleApp1
     class CleanRobot : Robot
     {
         public double data;
+
+        public CleanRobot() : base()
+        {
+            Console.WriteLine("C");
+        }
+        public CleanRobot(string name) : base("TEST")
+        {
+            data = 3;
+
+            Console.WriteLine("D");
+        }
         public void Clean()
         {
             Console.WriteLine("clean()");
@@ -39,7 +64,7 @@ namespace ConsoleApp1
 
     class Test05
     {
-       public static void Main(string[] args)
+       public static void Main05(string[] args)
         {
             Robot robot = new Robot();
             robot.Name = "tgv";
