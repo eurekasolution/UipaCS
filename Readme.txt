@@ -1,5 +1,56 @@
 설명을 위한 파일입니다.
 
+13. 재정의 : overriding
+	말 안장에 올라타기
+	올라타면 밑에 깔판이 안보임
+
+	부모가 만든 메소드가 마음에 안들때, 덮어씌우기(재정의)
+
+12. 상속 : Inheritance
+	코드를 재생산하겠다.
+	Java :  class SportsCar extends Car {}
+	C#   :  class SportsCar : Car {}
+
+11. getter, setter
+	변수(Field)는 일반적으로 private
+	이 값을 읽고, 세팅하는 getter, setter 사용한다.
+
+	getXXX(), setXXX()
+
+10. 소멸자 : Destructor
+	객체가 소멸될 때 호출된다.
+	Garbage Collector에게 알려주는 역할 수행
+	리턴타입도 없고, 파라미터도 없고
+	~클래스이름()
+
+9. 중복정의 : overloading
+
+	C언어 : void print() {}
+			void print(int a) { } : 불가능
+	객체지향 언어 : Java, C#
+			print()
+			print(3)
+	객체지향에서 중복정의의 특성
+		1. 시그너쳐(Signature)가 다르면 중복정의가능
+		2. 시그너쳐
+			함수이름, 파라미터 갯수, 순서
+			void print() {} 
+			void print(int a) { }
+			int print(int a) { return a;}
+			void print(int a, int b) { }
+			void print(double a){}
+
+			print(3, 4)
+			print(1.2);
+			print(3)
+
+8. 생성자 : Constructor
+
+	1. 초기화 메소드 : 이 녀석도 함수
+	2. 그런데, 리턴 타입이 없다. 
+	3. 생성자가 없으면 시스템이 알아서 만들어준다.
+	4. 그런데 하나라도 있으면 프로그래머의 의지를 반영한다.
+	5. 클래스 이름과 메소드 이름이 같다.
 7. 용어설명
 	overloading : 중복정의
 	overriding : 재정의
