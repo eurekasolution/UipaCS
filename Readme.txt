@@ -1,5 +1,26 @@
 설명을 위한 파일입니다.
 
+
+22. Network
+
+	UDP : Send & Pray
+
+21. Linq
+
+	DB의 query처럼 배열, 리스트에서 조건에 맞는 데이터 추출
+
+	DB Select query
+
+	SELECT 필드1, 필드2, [*]
+		FROM 테이블명
+		WHERE 조건
+		ORDER BY 필드1 [ASC | DESC]
+		GROUP BY...
+		HAVING ...
+		LIMIT 5, 7
+
+	조건 : age > 3 and age<10
+
 20. data base
 
 DB : csharp

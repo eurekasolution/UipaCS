@@ -1,0 +1,9 @@
+{
+  "name": "홍길동",
+  "age": 12,
+  "company": {
+    "name": "울산정보산업진흥원",
+    "http": "http://uipa.or.kr"
+  },
+  "address":  "울산"
+}
