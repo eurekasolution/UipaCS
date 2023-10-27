@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     internal class Test10
     {
-        public static void Main(string[] args)
+        public static void Main10(string[] args)
         {
             Console.Write("Insert Number : ");
             int num = int.Parse(Console.ReadLine());

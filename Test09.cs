@@ -14,7 +14,7 @@ namespace ConsoleApp1
             /* Java : 배열
              *  int[] lotto = new int[6];
              */
-
+            
             int[] array = new int[3];
             array[0] = 1;
             array[1] = 2;

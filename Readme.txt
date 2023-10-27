@@ -1,8 +1,60 @@
 설명을 위한 파일입니다.
 
+20. data base
+
+DB : csharp
+USER : csharp
+PASS : csharp
+
+create table users (
+	idx int(10) auto_increment,
+	id  char(20) unique,
+ 	pass char(20),
+	name char(20),
+	primary key(idx)
+);
+
+insert into users (id, pass, name) values ('test', '1111', 'teser');
+
+insert into users (id, pass, name) values ('hong', '1111', '홍길동');
+insert into users (id, pass, name) values ('kim', '1111', '김개똥');
+insert into users (id, pass, name) values ('lee', '1111', '이순신');
+insert into users (id, pass, name) values ('kwang', '1111', '광개토');
+insert into users (id, pass, name) values ('moonduk', '1111', '을지문덕');
+insert into users (id, pass, name) values ('park', '1111', '박찬호');
+
+
+case 1;
+
+	connect();
+
+	for( ; ; )
+		insert();
+
+	close();
+
+case 2:
+
+	for( ; ; )
+		connect()
+		insert()
+		close()
+
+SQL Injection 공격에 대응해야 한다.
+' or 2>1 -- asdfdsa
+kasdfdsa
+
+
+select * from users where id='$id' and pass='$pass';
+select * from users where id='' or 2>1 limit 1,1-- asdfdsa' and pass='kasdfdsa';
+
+도구 > Nuget Package Manager > Manager Nuget Package(2)
+	Mysql 검색 > mysql.data 패키지 설치
+
 19. Thread vs. Process
 
 	Thread : 경량 프로세스 : light-weight process
+
 18.예외처리 : Exception Control
 	비정상적인 오류를 제거
 
